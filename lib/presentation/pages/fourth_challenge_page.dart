@@ -11,7 +11,6 @@ class FourthChallengePage extends StatelessWidget {
       ),
       body: Container(
         alignment: Alignment.center,
-        color: Colors.grey[900],
         child: Container(
           alignment: Alignment.center,
           width: 300,

@@ -32,4 +32,21 @@ class MyRoutes {
         );
     }
   }
+
+  static void getRoute(String route, BuildContext context) {
+    switch (route) {
+      case 'First Challenge':
+        Navigator.pushNamed(context, firstChallengeRoute);
+        break;
+      case 'Second Challenge':
+        Navigator.pushNamed(context, secondChallengeRoute);
+        break;
+      case 'Third Challenge':
+        Navigator.pushNamed(context, thirdChallengeRoute);
+        break;
+      case 'Fourth Challenge':
+        Navigator.pushNamed(context, fourthChallengeRoute);
+        break;
+    }
+  }
 }
